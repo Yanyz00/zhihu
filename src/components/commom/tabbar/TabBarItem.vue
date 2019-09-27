@@ -20,7 +20,7 @@ export default {
     },
     methods:{
         itemClick () {
-            this.$route.push(this.path)
+            this.$router.push(this.path)
         }
     }
 }
